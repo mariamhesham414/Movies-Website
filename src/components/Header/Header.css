@@ -1,0 +1,21 @@
+.navbar-expand {
+  z-index: 1;
+}
+a {
+  text-decoration: none !important;
+  margin-left: 20px !important;
+}
+.active {
+  color: red;
+}
+.svg-icon-netflix-logo {
+  height: 45px;
+  width: 167px;
+  fill: #e50914;
+}
+.countFav {
+  position: relative;
+  /* left: 525px; */
+  top: -8px;
+  margin-right: 8px;
+}
