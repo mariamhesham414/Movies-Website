@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { BsTrashFill } from "react-icons/Bs";
 import { removeFavorite } from "../../store/slices/favorite";
-
+// import React from "react";
 export default function Favorite() {
   const dispatch = useDispatch();
   const favorite = useSelector((state) => state.favorite.favorite);
