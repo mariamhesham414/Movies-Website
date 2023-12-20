@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
-import { AiFillHeart } from "react-icons/Ai";
+import { AiFillHeart } from "react-icons/ai";
 import { useSelector } from "react-redux";
 // import LanguageContext from "../../context/language";
 import { useContext, useState } from "react";

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { GrInProgress } from "react-icons/Gr";
-import { MdDone } from "react-icons/Md";
-import { AiFillDelete } from "react-icons/Ai";
+import { GrInProgress } from "react-icons/gr";
+import { MdDone } from "react-icons/md";
+import { AiFillDelete } from "react-icons/ai";
 export default function Wishlist() {
   const [list, setList] = useState([]);
   const [input, setInput] = useState("");
